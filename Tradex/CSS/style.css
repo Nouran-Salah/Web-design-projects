@@ -1,0 +1,394 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.hoveredtab:hover .dropdown-menu{
+display:block;
+
+}
+
+.hovered:hover{
+    color:rgb(13,110, 253);
+  }
+  
+  .hovered-grey:hover{
+      color:rgb(193, 193, 193);
+    }
+    .hovered-img:hover img {
+      filter: grayscale(10%) brightness(80%);
+  }
+  .shine-white ,.shine-blue {
+    position: relative;
+    overflow: hidden; /* Prevents the pseudo-element from overflowing */
+    padding: 10px 20px;
+  }
+  
+
+  .shine-blue::before{
+    content: ""; /* Necessary to create a pseudo-element */
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%; /* Ensures the pseudo-element covers the full height */
+    width: 20%;
+    background-color:rgba(104, 160, 243, 0.185);
+    transform: translateX(-130px) skew(-40deg);
+    transition: transform 0.7s ;
+  
+  }
+  .shine-white::before {
+    content: ""; /* Necessary to create a pseudo-element */
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%; /* Ensures the pseudo-element covers the full height */
+    width: 20%;
+    background-color:rgba(255, 255, 255, 0.272);
+    transform: translateX(-130px) skew(-40deg);
+    transition: transform 0.7s ;
+  }
+
+  .shine-white:hover::before,.shine-blue:hover::before{
+    transform: translateX(220px) skew(-20deg);
+  }
+ .turning-blue:hover{
+    background-color :rgb(13,110, 253) !important; 
+    border:none;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+
+ul li{
+    list-style: none;
+}
+
+.head{
+
+    margin-top: 15%;
+    margin-left: 19%;
+  width:60%;
+}
+
+.head h2{
+    font-size: 60px;
+}
+.buttons{
+    margin-left: 10%;
+}
+
+.buttons .car_button{
+    width:6px !important;
+    margin-top: 1%;
+    height: 6px !important;
+
+}
+.car_button:hover {
+    transform: scale(1.5);
+    background-color:transparent !important; 
+    border:solid 1px white !important;
+}
+
+.animate__animated.animate__backInRight {
+    --animate-duration: 1.03s;
+  }
+  
+
+
+
+.carousel-inner .carousel-item img{
+    height: 920px;
+}
+.sec2, .sec4, .sec5, .sec7, .sec8, .sec10{
+    padding: 8% 0%;
+}
+.sec12{
+    padding-top:8%
+}
+.sec2 .icon{
+padding-top: 10%;
+
+}
+
+.sec2 .text{
+    font-size: 14px;
+}
+.relative-div{
+    height: 450px;
+}
+.relative-div .row{
+  margin-bottom: 10%;
+}
+.Get_Start_Now{
+    width:15%;
+}
+learn-more{
+    width: 35%;
+}
+
+.small{
+    width: 30px;
+    margin-top:20%;
+}
+
+.long{
+    width: 70px;
+    
+}
+.sec3{
+    padding: 5%;
+}
+.sec3 .icon-contain{
+    height: 64px;
+}
+.sec4 .hidden{
+    padding: 6.5%;
+    height:100%;
+    top:100%;
+    margin-bottom: 10%;
+}
+
+.sec4 .visible{
+    height: 240px;
+}
+.sec4 .visible:hover .hidden {
+top: 0%;
+
+transition-duration: 0.8s;
+}
+
+.sec4 .vPart{
+    padding: 17% 0%;
+}
+
+.sec5 ul{
+    margin-left: 23%;
+}
+
+.sec5  .row img{
+    height: 320px;
+    width: 100%;
+}
+
+.sec5 .blue-hidden{
+    width: 87%;
+    margin-left: 6%;
+    top:76%;
+    transform: scaleX(0);
+}
+
+.sec5 .image:hover .blue-hidden{
+transform: scaleX(1);
+transition-duration: 1s;
+}
+
+.sec5 .image:hover{
+    box-shadow: 0px 0px 8px 1px black;
+    }
+  .sec5 img{
+    border-radius:5px ;
+  } 
+  
+
+  .sec7 .row{
+  
+  }
+  .sec7 .row2{
+    margin-top: 20%;
+  }
+.sec7 .whiteDiv{
+    transition-duration: 1s;
+    top:81%;
+    border-bottom: 1px;
+    padding-bottom: 5%;
+}
+  .sec7 .pic:hover .whiteDiv {
+     top:56%;
+  }
+
+  .sec7 .pic:hover .blueNav {
+    top:89%;
+ }
+ .sec7.blueNav{
+    transition-delay: 0.5s;
+ }
+ .sec7 .row img{
+    height:410px;
+ }
+ .sec7 .row {
+    font-size: 12px;
+ }
+ .carousel-indicators [data-bs-target]{
+    border: 1px solid white !important;
+    margin-bottom: 2%;
+ }
+
+ .sec8 .buttons{
+    margin-left: 32%;
+ }
+ .sec8 .buttons .button1{
+    border-left: solid 1px transparent ;
+    border-radius: 50px 0px 0px 50px;
+ }
+ .sec8 .buttons .button2{
+    border-left: solid 1px transparent ;
+    border-radius: 0px 50px 50px 0px;
+ }
+ 
+ .sec8 ul{
+margin-left: 30%;
+ }
+
+ .sec8 .tabs-paragraph hr{
+    margin-left: 39%;
+    width: 20%;
+ }
+
+ .sec8 .grey-hr{
+    width: 310px !important;
+    margin-left: 14% !important;
+ }
+
+ .sec9{
+    padding: 6% 0%;;
+ }
+ .sec9 form button{
+    width: 17%;
+    font-size: 20px;
+ }
+ .sec9 i{
+    font-size: 50px !important;
+ }
+ .sec9 form input::placeholder{
+    font-size: 15px;
+    color: black;
+    padding-left:2% ;
+ }
+
+ .sec9 .letter{
+    margin-left: 16%;
+ }
+ .sec9 form input{
+width: 42%;
+ }
+ .sec10 .row .col-5{
+    margin-left: 3%;
+ }
+ .sec10 .row .column1{
+    margin-left: 7% ;
+ }
+
+ .sec11 .text-center p{
+    margin-left: 10%;
+ }
+
+.sec11 .col-9 ul{
+    padding-left: 0 !important;
+}
+.sec11 .col-lg-4 .skewedImg,.hoveredDiv,.hovered,.arrow-right{
+    transition: 1s ease;
+}
+.sec11 .col-lg-4:hover .skewedImg{
+    transform: scale(1.2) rotate(-3deg);
+
+}
+
+.sec11 .col-lg-4:hover .hoveredDiv{
+    background-color:rgb(13,110, 253) !important;
+    transition-duration: 0.6s;
+}
+
+.sec11 .col-lg-4:hover .progress-bar{
+    width: 100% !important;
+}
+
+
+
+.sec11 .arrow:hover .arrow-right {
+    margin-left: 5% !important;
+    transition: 0.5s;
+}
+
+.sec12 .row img{
+height: 120px;
+width: 100%;
+}
+.sec12 .man img{
+    filter: drop-shadow(5px 5px 5px #666666);
+}
+.sec13 button{
+    width: 15%;
+    padding: 0% !important;
+}
+.sec13 i{
+    font-size: 80px !important;
+    top:60px;
+    left:190px;
+}
+
+.sec14 img{
+    width: 80%;
+    height: 90px;
+}
+.sec14{
+    padding-top: 8%;
+    background-color:rgb(26, 25, 25) ;
+}
+.sec14 .copyright{
+    background-color: rgb(21, 21, 21);
+}
+.sec14 .arrow_up{
+    bottom: 6%;
+    right: 3%;
+    font-size: 22px;
+    border: 1px solid transparent;
+    padding: 1% 1% 1% 1% !important;
+}
+.sec14 li:hover button{
+    background-color:rgb(13,110, 253) !important;
+    color: white;
+    transition-duration: 0.4s;
+
+}
+
+
+.contact-1 header h1{
+     margin-top:8%;
+     font-size: 55px;
+}
+.contact-1{
+height: 350px;
+
+}
+.contact-1 nav{
+    bottom:0%;
+    background-color: rgba(0, 0, 0, 0.427);
+    padding: 1%;
+}
+.ContactInfo .contact{
+    margin: 8% 0% ;
+}
+
+.ContactInfo textarea{
+    height: 200px;
+}

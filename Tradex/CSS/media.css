@@ -1,0 +1,30 @@
+
+/* medium screen */
+
+@media only screen and (max-width: 992px) {
+  .carousel .Get_Start_Now {
+    display: block !important;
+    width: 40% !important;
+    margin-left: 25% !important;
+  }
+  .carousel .Contact_Us {
+    display: block !important;
+    width: 40% !important;
+    margin-top: 2% !important;
+  }
+  .sec8 .grey-hr{
+    width: 80% !important;
+  }
+  .sec9 button{
+    width: 40% !important;
+  }
+  }
+
+
+  @media only screen and (max-width: 567px) {
+   
+
+    .sec8 .grey-hr{
+      width: 60% !important;
+    }
+  }
